@@ -56,13 +56,13 @@ class connection
 			    $siteTxt = "freetunez";
 			    break;
 		}
-		//var_dump("127.0.0.1","alf_$siteTxt","Bluesky50","alf_$siteTxt",3306);
+		//var_dump("127.0.0.1","alf_$siteTxt","gg","alf_$siteTxt",3306);
 		mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 		if($site !== 11) {		
 		    self::$con = new mysqli("localhost","id15075313_czgamesuser",']rSdC!v$uJ8#_=G)',"id15075313_czgames",3306);
 		    self::$db = "id15075313_czgames";
 		} else {
-		    self::$con = new mysqli("localhost","id9500615_id9500615_alf_arkascension","bluesky50","id9500615_freetunez",3306);
+		    self::$con = new mysqli("localhost","id9500615_id9500615_alf_arkascension","bb","id9500615_freetunez",3306);
 		    self::$db = "id9500615_freetunez";
 		}
 		if (self::$con->connect_errno) {
