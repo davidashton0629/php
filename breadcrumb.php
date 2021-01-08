@@ -1,3 +1,10 @@
+<?php
+/*
+
+	Generates a <div> set of breadcrumbs, pass array('qLink'=>false) to remove <span>Quick Links</span>
+
+*/
+
 function breadcrumbs($options = array())
 {
 	$o = array_merge(array(
@@ -42,3 +49,5 @@ function breadcrumbs($options = array())
 }
 
 echo breadcrumbs();
+
+?>
